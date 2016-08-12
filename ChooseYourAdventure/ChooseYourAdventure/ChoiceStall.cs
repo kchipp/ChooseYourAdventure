@@ -8,7 +8,7 @@ namespace ChooseYourAdventure
 {
     class ChoiceStall
     {
-        public void makeStallChoice()
+        public void MakeStallChoice()
         {
             Console.WriteLine("You choose to try and stall.  That's a good choice.  This boat is a little fei-oo (according to the Alliance).  \nThey may just buy it. But they won't wait forever.  ");
             Console.WriteLine("Get that contraband...ahem CARGO...stored. They are waiting, but won't wait much longer.  Are you ready?");
@@ -24,14 +24,14 @@ namespace ChooseYourAdventure
                     Console.ReadLine();
                     Console.Clear();
                     ChoiceWelcome cWelcome = new ChoiceWelcome();
-                    cWelcome.makeWelcomeChoice();
+                    cWelcome.MakeWelcomeChoice();
                     break;
                 case "2":
                     Console.WriteLine("You made your choice.  Press Enter");
                     Console.ReadLine();
                     Console.Clear();
                     ChoiceUnWelcome cUnWelcome = new ChoiceUnWelcome();
-                    cUnWelcome.makeUnWelcomeChoice();
+                    cUnWelcome.MakeUnWelcomeChoice();
                     break;
             }
         }

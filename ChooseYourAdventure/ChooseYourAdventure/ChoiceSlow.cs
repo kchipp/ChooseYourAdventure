@@ -23,14 +23,14 @@ namespace ChooseYourAdventure
                     Console.ReadLine();
                     Console.Clear();
                     ChoiceIgnore cIgnore = new ChoiceIgnore();
-                    cIgnore.makeIgnoreChoice();
+                    cIgnore.MakeIgnoreChoice();
                     break;
                 case "2":
                     Console.WriteLine("You've made another choice. Press enter");
                     Console.ReadLine();
                     Console.Clear();
                     ChoiceStall cStall = new ChoiceStall();
-                    cStall.makeStallChoice();                
+                    cStall.MakeStallChoice();                
                     break;
                 default:
                     Console.WriteLine("Sorry, You must make a choice");

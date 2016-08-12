@@ -8,7 +8,7 @@ namespace ChooseYourAdventure
 {
     class PlayAgain
     {
-        public void playAgain()
+        public void Replay()
         {
 
             Console.WriteLine("\nWhat's next?\nType 'Again' to play again.\nType 'esc' to Quit.");
@@ -19,9 +19,9 @@ namespace ChooseYourAdventure
                 case "again":
                     Console.Clear();
                     Start start = new Start();
-                    start.runIntro();
+                    start.RunIntro();
                     ChoiceOne choice = new ChoiceOne();
-                    choice.makeChoice();
+                    choice.MakeChoice();
                     break;
                 case "esc":
                     Console.BackgroundColor = ConsoleColor.Cyan;
@@ -31,7 +31,7 @@ namespace ChooseYourAdventure
                     break;
                 default:
                     Console.WriteLine("Oops! Try again...");
-                    playAgain();
+                    Replay();
                     break;
             }
         }

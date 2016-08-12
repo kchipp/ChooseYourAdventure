@@ -22,14 +22,14 @@ namespace ChooseYourAdventure
                     Console.ReadLine();
                     Console.Clear();
                     ChoiceRelease cRelease = new ChoiceRelease();
-                    cRelease.makeReleaseChoice();
+                    cRelease.MakeReleaseChoice();
                     break;
                 case "2":
                     Console.WriteLine("You've made that choice. Press enter");
                     Console.ReadLine();
                     Console.Clear();
                     ChoiceOutrun cOutrun = new ChoiceOutrun();
-                    cOutrun.makeOutrunChoice();                       
+                    cOutrun.MakeOutrunChoice();                       
                     break;
                 default:
                     Console.WriteLine("Sorry, You must make a choice");

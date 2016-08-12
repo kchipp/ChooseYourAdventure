@@ -8,12 +8,12 @@ namespace ChooseYourAdventure
 {
     class End
     {
-        public void endAdventure()
+        public void EndAdventure()
         {
             Console.WriteLine("Your adventure has ended...for now....");
             Console.ReadKey();
             PlayAgain pa = new PlayAgain();
-            pa.playAgain();
+            pa.Replay();
 
         }
     }

@@ -8,13 +8,13 @@ namespace ChooseYourAdventure
 {
     class ChoiceReStall
     {
-        public void makeReStallChoice()
+        public void MakeReStallChoice()
         {
             Console.WriteLine("Well that didn't work.  They came in guns blazing and you weren't ready for them.  They've take the ship and her cargo into custody.  \nAnd they are going to leave you on some remote planet.");
             Console.WriteLine("At least you sent a wave to Mal before you let the Alliance march in.  If he doesn't kill you, he may just rescue you.  \nBetter start thinking about a plan to get Serenity back...");
             Console.ReadLine();
             End end = new End();
-            end.endAdventure();
+            end.EndAdventure();
         }
     }
 }

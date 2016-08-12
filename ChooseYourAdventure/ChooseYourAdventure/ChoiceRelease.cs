@@ -8,13 +8,13 @@ namespace ChooseYourAdventure
 {
     class ChoiceRelease
     {
-        public void makeReleaseChoice()
+        public void MakeReleaseChoice()
         {
             Console.WriteLine("You choose to release the fake beacons.  Well, like Malcolm says...\n'I've never credited the Alliance with an overabundance of intelligence'. This should work.");
             Console.WriteLine("It looks like it's working, too.  They are going after one of the fake beacons.  It looks like you're in the clear, \nfor now...");
             Console.ReadLine();
             End end = new End();
-            end.endAdventure();
+            end.EndAdventure();
         }
 
     }

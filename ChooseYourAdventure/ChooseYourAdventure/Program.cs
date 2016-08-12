@@ -11,9 +11,9 @@ namespace ChooseYourAdventure
         static void Main(string[] args)
         {
             Start start = new Start();
-            start.runIntro();
+            start.RunIntro();
             ChoiceOne choice = new ChoiceOne();
-            choice.makeChoice();
+            choice.MakeChoice();
         }
     }
 }

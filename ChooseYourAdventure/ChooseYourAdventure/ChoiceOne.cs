@@ -8,7 +8,7 @@ namespace ChooseYourAdventure
 {
     class ChoiceOne
     {
-        public void makeChoice()
+        public void MakeChoice()
         {
             Console.WriteLine("Make your first choice: \nChoice 1 - you slow for the Alliance's hail. ");
             Console.WriteLine("Choice 2 - you make a break for it.");
@@ -32,7 +32,7 @@ namespace ChooseYourAdventure
                     break;
                 default:
                     Console.WriteLine("Sorry, but you must make a choice");
-                    makeChoice();
+                    MakeChoice();
                     break;
             }
         }
